@@ -1,0 +1,55 @@
+/*---------------- header section  ----------------*/
+.menuIcon{
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+.navbar{
+}
+.navbar .menu{
+    display: none;
+    position: absolute;
+    background: rgb(69, 86, 231);
+    box-shadow: 0px 0px 5px 3px #888888;
+top: 12%;
+left: 10%;
+}
+.navbar .menu ul li a{
+}
+.navbar .menu ul li a:hover{
+    background-color: rgb(44, 35, 156);
+}
+.navbar .menu ul li{
+    margin-bottom: 15px;
+    display:block;
+}
+.navbar .loginButton .btn{
+    padding: 5px 10px;
+    font-size: 16px;  
+}
+.fa-sign-in{
+    padding-right: 10px;
+    font-size: 16px;
+}
+/*---------------- header content section  ----------------*/
+.headerContent .text h1{
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+}
+
+/*--------------------- Highlights section ---------------------*/
+
+.highlight-container .h-text p{
+line-height: 30px;
+}
+.highlight-container .h-text h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+/*----------------- Players Section  ------------------*/
+
+.container{
+    padding-top:50px;
+  }
+
+

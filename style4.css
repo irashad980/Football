@@ -1,0 +1,34 @@
+.mw{
+    max-width: 90%;
+    margin: auto;
+}
+/*---------------- header content section  ----------------*/
+
+header .headerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:baseline;
+}
+
+.headerContent .image img{
+    margin-top: 50px;
+}
+.headerContent .text {
+  width: 100%;
+}
+.headerContent .text h1{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+/*--------------------- Highlights section ---------------------*/
+.highlight-container .img img{
+    max-width: 95%;
+}
+.footer-container .row1 img{
+    width: 250px;
+}
+.footer-container .row2 img{
+    margin-right: 10px;
+    width: 30px;
+}

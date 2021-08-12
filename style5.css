@@ -1,0 +1,39 @@
+
+/*---------------- header section  ----------------*/
+.menuIcon{
+    font-size: 25px;
+}
+.navbar .loginButton .btn{
+    padding: 5px 5px;
+    font-size: 13px;
+}
+.fa-sign-in{
+    padding-right: 5px;
+    font-size: 13px;
+    margin-top:2% ;
+}
+/*---------------- header content section  ----------------*/
+.headerContent .text h1{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+/*----------------- Players Section  ------------------*/
+.container{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-column-gap: 50px ;
+    grid-row-gap: 20px;
+    margin-top: 15px;
+}
+/*--------------------- Highlights section ---------------------*/
+.highlight-container {
+    padding-top: 0%;
+}
+.highlight-container .h-text h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+.highlight-container .h-text p{
+    font-size: 17px;
+}
